@@ -229,8 +229,8 @@ Buka JupyterLab pada `http://localhost:8888/lab`. Konfigurasi Dockerfile menjala
 
 Isi bagian ini sebelum pengumpulan akhir.
 
-> Alat AI yang digunakan: [nama alat].
+> Alat AI yang digunakan: [Gemini].
 >
-> Bagian yang dibantu: [contoh: penjelasan error Polars atau review dokumentasi].
+> Bagian yang dibantu: [Pemahaman logika variabel target, verifikasi struktur data/README.md, penyesuaian aturan .gitignore, serta penjelasan error pada path(File ada: False) pada setup cell notebook 01_data_profiling.ipynb.].
 >
-> Verifikasi yang dilakukan: [contoh: menjalankan ulang kode, memeriksa dokumentasi resmi, dan memahami setiap cell].
+> Verifikasi yang dilakukan: [Menjalankan ulang seluruh cell kode di JupyterLab hingga mengeluarkan output lengkap, memeriksa kesesuaian jalur direktori folder data/raw/, dan memverifikasi isi tabel deskripsi kolom sesuai spesifikasi dataset asli.].

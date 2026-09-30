@@ -6,12 +6,34 @@ Isi informasi berikut sebelum Milestone 1.
 
 | Item | Isi |
 |---|---|
-| Nama dataset | `[isi nama dataset]` |
-| Sumber | `[URL BPS / Satu Data Indonesia / BMKG / HuggingFace / Kaggle]` |
-| Lisensi/ketentuan pakai | `[isi]` |
-| Ukuran | `[>= 500 MB atau > 1.000.000 baris]` |
-| Periode data | `[isi]` |
-| Unit analisis | `[isi]` |
+| Nama dataset | `[Flood Prediction Dataset]` |
+| Sumber | `[https://www.kaggle.com/datasets/farahfirdausa/flood-prediction-dataset]` |
+| Lisensi/ketentuan pakai | `[MIT License]` |
+| Ukuran | `[> 1.000.000 baris]` |
+| Periode data | `[2003 s.d 2015]` |
+| Unit analisis | `[Satu titik grid koordinat lokasi (lon, lat) pada satu tanggal kejadian tertentu di Sulawesi Selatan]` |
+
+## Deskripsi Singkat
+Dataset ini dibuat untuk pemodelan prediksi banjir di Sulawesi Selatan. Deskripsi di halaman sumber menyebut data berasal dari berbagai sumber pemerintah, pengamatan satelit (MODIS), dan pemantauan lokal. Setiap baris memiliki label kejadian banjir.
+
+## Deskripsi Kolom
+| Kolom | Keterangan |
+|---|---|
+| `date` | Tanggal kejadian/citra |
+| `lon`, `lat` | Koordinat titik grid (derajat) |
+| `flooded` | Penanda genangan pada titik tersebut |
+| `jrc_perm_water` | Float (0/1) | Penanda badan air permanen, nilai 1 menandakan wilayah tersebut terdeteksi sebagai air permanen(selalu digenangi air, nilai 0 menandakan wilayah tersebut daratan kering |
+| `precip_1d` | Curah hujan 1 hari (satuan mm) |
+| `precip_3d` | Curah hujan akumulasi 3 hari (satuan mm) |
+| `NDVI` | Indeks vegetasi, skala sekitar -2000 s.d. 10000 (skala MODIS ×10.000) |
+| `NDWI` | Indeks air, skala sekitar -1 s.d. 1 |
+| `landcover` | Kelas tutupan lahan (kategori 1-17) |
+| `elevation` | Ketinggian |
+| `slope` | Kemiringan lereng |
+| `aspect` | Arah hadap lereng (derajat, 0-360) |
+| `upstream_area` | Luas area hulu |
+| `TWI` | Topographic Wetness Index |
+| `target` | Label banjir |
 
 ## Tempat Mencari Dataset
 
