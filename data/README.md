@@ -22,7 +22,7 @@ Dataset ini dibuat untuk pemodelan prediksi banjir di Sulawesi Selatan. Deskrips
 | `date` | Tanggal kejadian/citra |
 | `lon`, `lat` | Koordinat titik grid (derajat) |
 | `flooded` | Penanda genangan pada titik tersebut |
-| `jrc_perm_water` | Float (0/1) | Penanda badan air permanen, nilai 1 menandakan wilayah tersebut terdeteksi sebagai air permanen(selalu digenangi air, nilai 0 menandakan wilayah tersebut daratan kering |
+| `jrc_perm_water` | Penanda badan air permanen, nilai 1 menandakan wilayah tersebut terdeteksi sebagai air permanen(selalu digenangi air, nilai 0 menandakan wilayah tersebut daratan kering |
 | `precip_1d` | Curah hujan 1 hari (satuan mm) |
 | `precip_3d` | Curah hujan akumulasi 3 hari (satuan mm) |
 | `NDVI` | Indeks vegetasi, skala sekitar -2000 s.d. 10000 (skala MODIS ×10.000) |
