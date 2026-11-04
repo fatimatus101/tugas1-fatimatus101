@@ -237,7 +237,7 @@ Isi bagian ini sebelum pengumpulan akhir.
 
 > Alat AI yang digunakan: Gemini
 >
-> Bagian yang dibantu: Membantu memahami struktur data, mengatasi kendala atau error saat menggunakan perintah git pull untuk menarik file tertentu saja dari repositori utama, serta menyelaraskan penggunaan Git dan Docker Compose pada proyek.
+> Bagian yang dibantu: Membantu memahami struktur data, mengatasi kendala atau error saat menggunakan perintah git pull untuk menarik file tertentu saja dari repositori utama, serta menyelaraskan penggunaan Git dan Docker Compose pada proyek. 
 >
-> Verifikasi yang dilakukan: Mmenguji langsung perintah Git untuk penarikan file spesifik (pull/checkout dari upstream) dan memastikan konfigurasi direktori Docker Compose telah sesuai sebelum diterapkan pada proyek.
+> Verifikasi yang dilakukan: Menguji langsung perintah Git untuk penarikan file spesifik (pull/checkout dari upstream) dan memastikan konfigurasi direktori Docker Compose telah sesuai sebelum diterapkan pada proyek.
 
