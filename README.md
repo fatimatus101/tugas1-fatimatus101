@@ -229,8 +229,15 @@ Buka JupyterLab pada `http://localhost:8888/lab`. Konfigurasi Dockerfile menjala
 
 Isi bagian ini sebelum pengumpulan akhir.
 
-> Alat AI yang digunakan: [Gemini].
+> Alat AI yang digunakan: Gemini
 >
-> Bagian yang dibantu: [Pemahaman logika variabel target, verifikasi struktur data/README.md, penyesuaian aturan .gitignore, serta penjelasan error pada path(File ada: False) pada setup cell notebook 01_data_profiling.ipynb.].
+> Bagian yang dibantu: Pemahaman logika variabel target, verifikasi struktur data/README.md, penyesuaian aturan .gitignore, serta penjelasan error pada path(File ada: False) pada setup cell notebook 01_data_profiling.ipynb.
 >
-> Verifikasi yang dilakukan: [Menjalankan ulang seluruh cell kode di JupyterLab hingga mengeluarkan output lengkap, memeriksa kesesuaian jalur direktori folder data/raw/, dan memverifikasi isi tabel deskripsi kolom sesuai spesifikasi dataset asli.].
+> Verifikasi yang dilakukan: Menjalankan ulang seluruh cell kode di JupyterLab hingga mengeluarkan output lengkap, memeriksa kesesuaian jalur direktori folder data/raw/, dan memverifikasi isi tabel deskripsi kolom sesuai spesifikasi dataset asli.
+
+> Alat AI yang digunakan: Gemini
+>
+> Bagian yang dibantu: Membantu memahami struktur data, mengatasi kendala atau error saat menggunakan perintah git pull untuk menarik file tertentu saja dari repositori utama, serta menyelaraskan penggunaan Git dan Docker Compose pada proyek.
+>
+> Verifikasi yang dilakukan: Mmenguji langsung perintah Git untuk penarikan file spesifik (pull/checkout dari upstream) dan memastikan konfigurasi direktori Docker Compose telah sesuai sebelum diterapkan pada proyek.
+
